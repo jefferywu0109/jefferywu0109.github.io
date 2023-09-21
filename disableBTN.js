@@ -1,17 +1,17 @@
 	
-		var x = 0;
+		var x = 40;
 		document.getElementById("Btn4").onclick = function() {disableBtn4()};
 		
 		function  disableBtn4()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40";
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40";
 			document.getElementById("Btn4").disabled = true;	
 		}
 	document.getElementById("Btn").onclick = function() {disableBtn()};
 		
 		function  disableBtn()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn").disabled = true;	
 		}
 	
@@ -19,7 +19,7 @@
 		
 		function  disableBtn1()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn1").disabled = true;	
 		}
 	
@@ -27,7 +27,7 @@
 		
 		function  disableBtn2()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn2").disabled = true;	
 		}
 	
@@ -35,7 +35,7 @@
 		
 		function  disableBtn3()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn3").disabled = true;	
 		}
 	
@@ -43,7 +43,7 @@
 		
 		function  disableBtn5()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn5").disabled = true;	
 		}
 	
@@ -51,7 +51,7 @@
 		
 		function  disableBtn6()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn6").disabled = true;	
 		}
 	
@@ -59,7 +59,7 @@
 		
 		function  disableBtn7()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn7").disabled = true;	
 		}
 	
@@ -67,7 +67,7 @@
 		
 		function  disableBtn8()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn8").disabled = true;	
 		}
 	
@@ -75,7 +75,7 @@
 		
 		function  disableBtn9()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn9").disabled = true;	
 		}
 	
@@ -83,7 +83,7 @@
 		
 		function  disableBtn10()
 		{	
-			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("num").innerHTML = "使用格數 ："+  ++x +" " + "/ 40" ;
 			document.getElementById("Btn10").disabled = true;	
 		}
 
