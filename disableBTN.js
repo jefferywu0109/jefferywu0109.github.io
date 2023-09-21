@@ -1,58 +1,91 @@
 	
-	function  disableBtn()
-	{
-		document.getElementById("Btn").disabled = true;	
-	}
-
-	function  disableBtn1()
-	{
-		document.getElementById("Btn1").disabled = true;	
-	}
-
-	function  disableBtn2()
-	{
-		document.getElementById("Btn2").disabled = true;	
-	}
+		var x = 0;
+		document.getElementById("Btn4").onclick = function() {disableBtn4()};
+		
+		function  disableBtn4()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40";
+			document.getElementById("Btn4").disabled = true;	
+		}
+	document.getElementById("Btn").onclick = function() {disableBtn()};
+		
+		function  disableBtn()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn").disabled = true;	
+		}
 	
-	function  disableBtn3()
-	{
-		document.getElementById("Btn3").disabled = true;	
-	}
+	document.getElementById("Btn1").onclick = function() {disableBtn1()};
+		
+		function  disableBtn1()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn1").disabled = true;	
+		}
 	
-	function  disableBtn4()
-	{
-		document.getElementById("Btn4").disabled = true;	
-	}
-
-	function  disableBtn5()
-	{
-		document.getElementById("Btn5").disabled = true;	
-	}
-
-	function  disableBtn6()
-	{
-		document.getElementById("Btn6").disabled = true;	
-	}
-
-	function  disableBtn7()
-	{
-		document.getElementById("Btn7").disabled = true;	
-	}
-
-	function  disableBtn8()
-	{
-		document.getElementById("Btn8").disabled = true;	
-	}
-
-	function  disableBtn9()
-	{
-		document.getElementById("Btn9").disabled = true;	
-	}
-
-	function  disableBtn10()
-	{
-		document.getElementById("Btn10").disabled = true;	
-	}
+	document.getElementById("Btn2").onclick = function() {disableBtn2()};
+		
+		function  disableBtn2()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn2").disabled = true;	
+		}
+	
+	document.getElementById("Btn3").onclick = function() {disableBtn3()};
+		
+		function  disableBtn3()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn3").disabled = true;	
+		}
+	
+	document.getElementById("Btn5").onclick = function() {disableBtn5()};
+		
+		function  disableBtn5()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn5").disabled = true;	
+		}
+	
+	document.getElementById("Btn6").onclick = function() {disableBtn6()};
+		
+		function  disableBtn6()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn6").disabled = true;	
+		}
+	
+	document.getElementById("Btn7").onclick = function() {disableBtn7()};
+		
+		function  disableBtn7()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn7").disabled = true;	
+		}
+	
+	document.getElementById("Btn8").onclick = function() {disableBtn8()};
+		
+		function  disableBtn8()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn8").disabled = true;	
+		}
+	
+	document.getElementById("Btn9").onclick = function() {disableBtn9()};
+		
+		function  disableBtn9()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn9").disabled = true;	
+		}
+	
+	document.getElementById("Btn10").onclick = function() {disableBtn10()};
+		
+		function  disableBtn10()
+		{	
+			   document.getElementById("num").innerHTML = "使用格數 ："+ "0" + ++x +" " + "/ 40" ;
+			document.getElementById("Btn10").disabled = true;	
+		}
 
 	function  disableBtn11()
 	{
