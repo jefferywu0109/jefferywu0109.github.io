@@ -34,9 +34,9 @@
 		<h1>景品盒子</h1>
         </header>
         <div>
-            <span id="22" class="header"></span>
+            <p id="num" class="header">使用格數 ： 0 / 40</p>
         </div><br>
-    <div class="button" id="btn">
+    <div class="button" >
         <BUTTON ONCLICK="TEST();disableBtn();" style="margin-left: 12px" id="Btn">
         <img src="photo/1.jpg" alt="序號:1" height="90" width="90"/>
         </BUTTON>
@@ -176,12 +176,7 @@
     	alert('中a獎')}
 
 	
-    $(function(){
-      var cnt=0;
-      $("#btn").on("click", function(){
-        $("#22").html("目前使用格數:" + (++cnt) + "格" + "/40");
-        });
-      });
+    
 
 
     </SCRIPT>
@@ -190,3 +185,11 @@
 	 
 </body>
 </html>
+
+
+$(function(){
+    var cnt=0;
+    $("#btn").on("click", function(){
+      $("#22").html("目前使用格數:" + (++cnt) + "格" + "/40");
+      });
+    });
