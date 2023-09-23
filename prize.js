@@ -1,4 +1,4 @@
-var TEST = function(){alert('再接再厲');}
+        var TEST = function(){alert('再接再厲');}
 
         var TEST1 = function(){alert('恭喜中A獎，請上傳群組')}
         
