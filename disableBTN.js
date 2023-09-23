@@ -6,7 +6,7 @@
 		{	
 			document.getElementById("num").innerHTML = "剩餘格數 ："+  --x +" " + "/ 40";
 			document.getElementById("Btn4").disabled = true;
-			document.getElementById("pic4").src = "photo/2.jpg";	
+			document.getElementById("pic4").src = "2.jpg";	
 		}
 	document.getElementById("Btn").onclick = function() {disableBtn()};
 		
