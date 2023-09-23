@@ -1,5 +1,6 @@
 	
 		var x = 40;
+
 		document.getElementById("Btn4").onclick = function() {disableBtn4()};
 		
 		function  disableBtn4()
@@ -14,7 +15,7 @@
 		{	
 			document.getElementById("num").innerHTML = "剩餘格數 ："+  --x +" " + "/ 40" ;
 			document.getElementById("Btn").disabled = true;
-      			document.getElementById("pic").src = "2.jpg";	
+      		document.getElementById("pic").src = "2.jpg";	
 		}
 	
 	document.getElementById("Btn1").onclick = function() {disableBtn1()};
