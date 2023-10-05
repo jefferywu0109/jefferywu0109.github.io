@@ -13,3 +13,7 @@
         var TEST6 = function(){alert('恭喜中F獎，請上傳群組')}
 
         var TEST7 = function(){alert('恭喜中G獎，請上傳群組')}
+
+        var TEST8 = function(){alert('恭喜中H獎，請上傳群組')}
+
+        var TEST9 = function(){alert('恭喜中I獎，請上傳群組')}
